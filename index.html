@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    </head>
+<body>
+    <header>
+            <h1 id="title">FreeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+    <form action="" id="survey-form">
+    <main>
+        <div class="survey-box">
+            <div id="struct-div">
+                <label id="name-label">Name</label>
+            </div>
+            <div id="struct-div">
+                <input type="text" name="" id="name" placeholder="Enter your name" size="100" required>
+            </div>
+            <div id="struct-div">
+                <label id="email-label" required>Email</label>
+            </div>
+            <div id="struct-div">
+                <input type="email" placeholder="Enter your Email" id="email" required>
+            </div>
+            <div id="struct-div">
+                 <label id="number-label"> Age(optional)
+            </div>
+            <div id="struct-div">
+                <input type="number" name="" placeholder="Enter your Age" id="number" min="10" max="99">
+            </div>
+            <div id="struct-div">
+                Which option best describes your current role?
+            </div>
+            <div id="struct-div">
+                <select placeholder="Select an option" id="dropdown" required>
+                    <option value="">Select an option</option>
+                    <option value="">Student</option>
+                    <option value="">Full Time Job</option>
+                    <option value="">Full Time Learner</option>
+                    <option value="">Prefer Not To Say</option>
+                    <option value="">Others</option>
+                </select> 
+            </div>
+            <div id="struct-div">Would you recommend FreeCodeCamp to a friend?</div>
+            <div> 
+                <input type="radio" name="recfrnd" id="" value="definitely">Definitely<br>
+                <input type="radio" name="recfrnd" id="" value="maybe">Maybe<br>
+                <input type="radio" name="recfrnd" id="" value="not sure">Not sure<br>
+            </div>
+            <div id="struct-div">
+                What is your favorite feature of freeCodeCamp?
+            </div>
+            <div id="struct-div">
+                <select name="" placeholder="Select an option" id="" required>
+                    <option value="">Select an option</option>
+                    <option value="">Challenges</option>
+                    <option value="">Projects</option>
+                    <option value="">Community</option>
+                    <option value="">Open Source</option>
+                </select>
+            </div>
+            
+            <div id="struct-div">
+                What would you like to see improved?(Check all that apply)
+            </div>
+            <div id="struct-div">
+                <input type="checkbox" name="courses" value="front-end" id="">Front-end Projects<br>
+                <input type="checkbox" name="courses" value="back-end" id="">Back-end Projects<br>
+                <input type="checkbox" name="courses" value="data-visual" id="">Data Visualization<br>
+                <input type="checkbox" name="" value="challenge" id="">Challenges<br>
+                <input type="checkbox" name="" value="open-source" id="">Open Source Community<br>
+                <input type="checkbox" name="" value="gitter" id="">Gitter help rooms<br>
+                <input type="checkbox" name="" value="video" id="">Videos<br>
+                <input type="checkbox" name="" value="meetup" id="">City Meetups<br>
+                <input type="checkbox" name="" value="wiki" id="">Wiki<br>
+                <input type="checkbox" name="" value="forum" id="">Forum<br>
+                <input type="checkbox" name="" value="additional" id="">Additional Courses<br>
+        
+            </div>   
+            
+            <div id="struct-div"v>
+                 Any comments or suggestions?
+            </div>
+            <div id="struct-div"> 
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" name="Submit" value="Submit" id="submit">Submit
+    </div>
+    </main>
+
+    </form>
+</body>
+</html>
